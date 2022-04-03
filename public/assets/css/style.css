@@ -1,0 +1,256 @@
+@media only screen and (max-width: 768px) {
+  #hero img {
+    width: 103%;
+    height: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title,
+  #faq {
+    text-align: center;
+  }
+
+  #navbarNav {
+    transition: right 0.5s;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(198, 198, 198);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 1) 50%);
+  }
+
+  .navbar-nav {
+    padding: 16px;
+    width: 50%;
+  }
+
+  .navbar-nav button {
+    border: none;
+    background-color: transparent;
+  }
+
+  .img-services {
+    width: 80%;
+    margin-bottom: 24px;
+  }
+
+  .heading-title {
+    font-size: 24px;
+  }
+
+  .testi {
+    width: 100% !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .show-neighbors {
+    overflow: hidden;
+  }
+
+  .show-neighbors .carousel-inner {
+    width: 100% !important;
+    left: 1.2em !important;
+  }
+
+  .show-neighbors .item__third {
+    float: left;
+    position: relative;
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #hero img {
+    width: 218%;
+  }
+
+  #navbarNav {
+    transition: right 0.5s !important;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(198, 198, 198);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 1) 50%);
+  }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.btn-success {
+  background-color: #5cb85f !important;
+  font-weight: 700;
+}
+
+section,
+footer {
+  margin-bottom: 100px;
+}
+
+#hero {
+  background-color: #f1f3ff;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+#hero {
+  padding-top: 37px;
+}
+
+.heading-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+table tr td:first-child {
+  padding-right: 16px;
+}
+
+table tr td {
+  padding-bottom: 10px;
+}
+
+#search-car {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: -9rem;
+  position: relative;
+}
+
+#search-car button {
+  margin-top: 2em;
+}
+
+#services h3 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.heading {
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.card {
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+#why-us .card img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+#why-us .card h5 {
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+#why-us .card p {
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+
+#why-us .card {
+  padding: 20px;
+  height: 225px;
+}
+
+#card-group {
+  margin-top: 40px;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#carousel-testimonial {
+  margin-top: 40px;
+}
+
+.testi {
+  width: 619px;
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  padding: 30px 32px;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 7px 11px;
+  border: 1px solid black;
+}
+
+.circle:hover {
+  border: 1px solid white;
+  background-color: #5cb85f;
+  color: white;
+}
+
+.user-image {
+  width: 6em;
+  margin: 50px;
+}
+
+.carousel-control {
+  width: 32px;
+  background-color: #fff;
+  border: 0;
+  margin: 10px;
+}
+
+#getting-started {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  color: #fff;
+  padding: 64px;
+  width: 90%;
+}
+
+.accordion-item {
+  margin-bottom: 16px;
+  border: 1px solid #d4d4d4 !important;
+  border-radius: 4px;
+}
+
+footer img {
+  margin-right: 16px;
+}
+
+.show-neighbors {
+  overflow: hidden;
+}
+
+.show-neighbors .carousel-inner {
+  width: 150%;
+  left: -25%;
+}
+
+.show-neighbors .item__third {
+  display: block;
+  float: left;
+  position: relative;
+  width: 33.33333333%;
+}
