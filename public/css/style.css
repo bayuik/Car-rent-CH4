@@ -254,3 +254,11 @@ footer img {
   position: relative;
   width: 33.33333333%;
 }
+
+#cars-container img {
+  height: 160px;
+}
+
+#cars-container .description {
+  height: 5em;
+}

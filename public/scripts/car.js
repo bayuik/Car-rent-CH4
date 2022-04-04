@@ -41,12 +41,16 @@ class Car {
 
   render() {
     return `
-      <p>id: <b>${this.id}</b></p>
-      <p>plate: <b>${this.plate}</b></p>
-      <p>manufacture: <b>${this.manufacture}</b></p>
-      <p>model: <b>${this.model}</b></p>
-      <p>available at: <b>${this.availableAt}</b></p>
-      <img src="${this.image}" alt="${this.manufacture}" width="64px">
+      <div class="card p-4 m-2">
+        <img src="${this.image}" alt="${this.model}" class="mb-5 rounded">
+        <p class="fw-bold">${this.model}/${this.type}</p>
+        <p class="fw-bold">Rp ${this.rentPerDay} / hari</p>
+        <p class='description'>${this.description}</p>
+        <p><i class="bi bi-people"></i> ${this.capacity} orang</p>
+        <p><i class="bi bi-gear"></i> ${this.transmission}</p>
+        <p><i class="bi bi-calendar4"></i> Tahun ${this.year}</p>
+        <button class="btn btn-success">Pilih Mobil</button>
+      </div>
     `;
   }
 }
