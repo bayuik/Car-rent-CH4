@@ -3,8 +3,15 @@ class App {
     this.carContainerElement = document.getElementById("cars-container");
   }
 
-  async init() {
-    await this.load();
+  async init(params) {
+    const { driver, date, time, capacity: cap = 0 } = params;
+    const filterCars = ({ available, capacity, availableAt }, item) => {
+      if (available && availableAt.substring(0, 12) < `${date}T${time}` && capacity >= cap) {
+        return item;
+      }
+    };
+    const cars = await Binar.listCars(filterCars);
+    Car.init(cars);
   }
 
   run = () => {
@@ -16,10 +23,4 @@ class App {
     });
   };
 
-  async load() {
-    const cars = await Binar.listCars();
-    Car.init(cars);
-  }
-
-  clear = () => {};
 }
